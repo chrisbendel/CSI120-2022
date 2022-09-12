@@ -1,0 +1,30 @@
+a:hover {
+  font-size: 60px;
+  color: #ff7f50;
+}
+
+.flex {
+  display: flex;
+}
+
+#left {
+  flex: 3;
+}
+
+#right {
+  flex: 7;
+}
+
+.box {
+  border: 1px solid red;
+  margin: 5px;
+}
+
+.long-box {
+  height: 600px;
+}
+
+/* 
+e63946
+f1faee 
+*/

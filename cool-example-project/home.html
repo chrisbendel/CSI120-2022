@@ -4,9 +4,21 @@
   <title>Title of the document</title>
 
   <style>
+    #body {
+      
+    }
+
     img {
-      width: 50px;
       height: 50px;
+      width: 50px;
+    }
+  
+    #centered {
+      text-align: center;
+    }
+
+    .big-text {
+      font-size: 40px;
     }
 
     h1 { 
@@ -20,26 +32,37 @@
 
   <script src="cool-stuff.js"> </script>
 </head>
-<body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<body id="body">
+<div style="display: flex;">
+  <div>
+    Chris
+  </div>
+  <div>
+    Software Developer
+  </div>
+</div>
 <div>
   <div id="test">i am red</div>
-  <p>Paragaph</p>
+  <p id="centered">Paragaph</p>
   <a href="https://reddit.com" target="_blank">
     <img alt="hello" src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9jdXN8ZW58MHx8MHx8&w=1000&q=80"/>
   </a>
-
-  
   <p>
     <a href="www.google.com">Link to google</a>
+  </p>
+  <div class="big-text">
+    asdlfklasdflkadsfkladsfklladfkls
+  </div>
+  <p class="big-text">
+    asdlfklasdflkadsfkladsfklladfkls
   </p>
 
   <p>
     <a href="menu.html">Link to Menu</a>
   </p>
 </div>
+
+<img src="./images/floofs.jpg"/>
 
 </body>
 </html>
